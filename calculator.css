@@ -1,0 +1,60 @@
+  *::after,
+  *::before{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  }
+  
+  body{
+  background-color:black;
+  }
+  .calculation-div{
+  width:320px;
+  margin:50px auto;
+  border:medium solid yellow;
+  
+  }
+  .space::after{
+	content:"";
+	width:130px;
+  }
+  
+	.page{
+	height:35px;
+	width:100%;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	background-color:black;
+	color:yellow;
+	border-top: medium solid yellow;
+	border-bottom: medium solid yellow;
+	font-size:25px;
+	font-weight:bold;
+	overflow-x:hidden;
+	}
+	.page::after{
+	content:"";
+	width:10px;
+	}
+	
+	p{
+	display:flex;
+	justify-content:space-around;
+	}
+	
+	button{
+	width:65px;
+	height:60px;
+	color:black;
+	background-color:yellow;
+	border-radius:50%;
+	font-size:20px;
+	font-weight:bold;
+	}
+	h1{
+	text-align:center;
+	font-weight:bold;
+	color:yellow;
+	font-family:Tahoma;
+	}
